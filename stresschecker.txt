@@ -1,0 +1,30 @@
+Nama Aplikasi: Apakah Anda depresi?
+
+Deskripsi aplikasi: Aplikasi ini adalah kuis untuk memeriksa apakah Anda depresi atau tidak?
+
+Aturan: Silakan masukkan nilai yang sesuai dengan jawaban Anda.
+	(Kriteria penilaian: Tidak sama sekali = 0, beberapa hari atau jarang = 1, cukup sering = 2, hampir setiap hari = 3)
+
+Quiz: Selama 2 minggu terakhir, seberapa sering Anda mengalami gejala berikut?
+	1. Bosan, tidak menikmati melakukan apapun.
+	2. Gelisah, tertekan, atau putus asa
+	3. Kesulitan tidur atau tetap terjaga atau tidur terlalu banyak
+	4. Mudah lelah atau dengan sedikit energi
+	5. Anoreksia atau makan berlebihan
+	6. Merasa buruk tentang diri sendiri berpikir kamu telah gagal atau menjadi orang yang membuatnya sendiri atau keluarga kecewa
+	7. Konsentrasi yang buruk ketika melakukan hal-hal seperti menonton televisi, mendengarkan radio, atau melakukan tugas-tugas yang membutuhkan konsentrasi.
+	8. Berbicara atau bertindak sangat lambat sehingga orang lain dapat melihat atau begitu gelisah sehingga Anda tetap tidak bergerak seperti biasa
+	9. Menyakiti diri sendiri Atau berpikir bahwa jika mereka mati, itu akan baik.
+
+
+Cara menghitung nilai
+ if nilai 5-8: memiliki kelainan tapi tidak ada depresi
+	Saran: Istirahat, bersantai, berolahraga, temukan konselor
+ else if nilai 9-14: mengalami sedikit depresi
+	Saran: Amati gejalanya, jika parah mempengaruhi prestasi kerja mengurus barang-barang di rumah atau bergaul dengan orang-orang Anda harus menemui dokter dan mendapatkan bantuan.
+ else if nilai 15-19: mengalami depresi sedang
+	Saran: Temui dokter untuk evaluasi dan bantuan.	
+ else if nilai => 20: mengalami depresi berat
+	Saran: Temui dokter untuk evaluasi dan bantuan.
+ else: tidak ada kelainan	
+	
